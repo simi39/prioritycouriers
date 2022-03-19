@@ -1,0 +1,74 @@
+/***** For Date-Time picker	******/
+.input-group {
+position: relative;
+display: table;
+border-collapse: separate;
+}
+.input-group {
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+.input-group .form-control {
+	position: relative;
+	z-index: 2;
+	float: left;
+	width: 57%;
+	margin-bottom: 0;
+	display: table-cell;
+}
+.input-group-addon {
+  	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	color: #555555;
+	text-align: center;
+	background-color: #eeeeee;
+	border: 1px solid #cccccc;
+  	width: 1%;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	display: table-cell;
+}
+.input-group-addon-go {
+  	padding:0px !important;
+	background-color: #fff;
+	border:inherit !important;
+  	width:inherit !important;
+  	white-space:inherit !important;
+  	vertical-align:inherit !important;
+  	display: inherit !important;
+	margin:0 auto;
+}
+.picker-switch .btn,
+.table-condensed .btn {
+	width:inherit !important;
+	background-image:none !important;
+	background-color:inherit !important;
+	border:none !important;
+	color:#2a6496 !important;
+}
+.bootstrap-datetimepicker-widget .row {
+	margin: 0;
+}
+
+.col-sm-6 {
+  
+  min-height: 1px;
+  
+}
+@media (min-width: 768px) {
+  .col-sm-6 {
+	width: 50%;
+    float: left;
+  }
+}
+@media (max-width: 767px) {
+.col-sm-6 {
+	width: 100%;
+	}
+.bootstrap-datetimepicker-widget.timepicker-sbs {
+	width: 253px !important;
+}
+}

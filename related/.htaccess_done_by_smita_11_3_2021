@@ -1,0 +1,5 @@
+# - Rewriting and redirections
+RewriteEngine On
+
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?prioritycouriers.com.au [NC]
+RewriteRule \.(php)$ - [NC,F,L]

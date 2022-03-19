@@ -1,0 +1,12 @@
+[11-Oct-2013 11:43:02 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/dbase.php on line 276
+[11-Oct-2013 11:43:02 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/oci8.php on line 693
+[11-Oct-2013 11:43:02 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/ibase.php on line 604
+[11-Oct-2013 11:43:02 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/common.php on line 1017
+[11-Oct-2013 11:43:02 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/common.php on line 1220
+[11-Oct-2013 11:43:03 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/storage.php on line 296
+[14-Oct-2013 12:07:05 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/dbase.php on line 276
+[14-Oct-2013 12:07:05 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/oci8.php on line 693
+[14-Oct-2013 12:07:05 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/ibase.php on line 604
+[14-Oct-2013 12:07:05 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/common.php on line 1017
+[14-Oct-2013 12:07:05 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/common.php on line 1220
+[14-Oct-2013 12:07:05 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/DB/storage.php on line 296

@@ -1,0 +1,248 @@
+/** Listing Table Css **/
+#container {
+	padding: 0;
+}
+#pagination {
+background-color:#0074cc;
+background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+margin:5px 3px 0;
+border:1px solid #AAAAAA;
+-webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+cursor:pointer;
+padding: 4px 10px 4px;
+line-height: 18px;
+text-align:right;
+text-decoration:none;
+color:#FFFFFF;
+position:relative;
+z-index:inherit;
+behavior: url(addons/pie/PIE.htc);	/*	tz	*/
+}
+#pagination:hover {
+  background-color: #ff6400;
+  *background-color: #ff6400;
+  background-image: -ms-linear-gradient(top, #ff9550, #ff6400);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ff9550), to(#ff6400));
+  background-image: -webkit-linear-gradient(top, #ff9550, #ff6400);
+  background-image: -o-linear-gradient(top, #ff9550, #ff6400);
+  background-image: -moz-linear-gradient(top, #ff9550, #ff6400);
+  background-image: linear-gradient(top, #ff9550, #ff6400);
+  background-repeat: repeat-x;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff9550', endColorstr='#ff6400', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+
+}
+
+.pagination_active {
+background-color:#FFFFFF;
+margin:5px 3px 0;
+border:1px solid #AAAAAA;
+-webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+cursor:pointer;
+padding: 4px 10px 4px;
+text-align:right;
+text-decoration:none;
+position:inherit;
+z-index:inherit;
+behavior: url(addons/pie/PIE.htc);	/*	tz	*/
+}
+#jquery_table {
+	width: 100%;
+	margin: 0px auto 0pt auto;
+}
+
+.dataTables_wrapper {
+	position: relative;
+	min-height: 302px;
+	_height: 302px;
+	clear: both;
+}
+
+.dataTables_processing {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	margin-left: -125px;
+	border: 1px solid #ddd;
+	text-align: center;
+	color: #999;
+	font-size: 11px;
+	padding: 2px 0;
+}
+
+.dataTables_length {
+	width: 20%;
+	float: left;
+	text-align:center;
+	/*margin-top:15px; */
+	/*padding: 4px 0px 6px 0px;*/
+}
+
+.dataTables_filter {
+	width: 100%;
+	float: right;
+	text-align: right;
+	padding: 4px 0px 6px 0px;
+	font-weight:bold;
+}
+
+.jquery_pagination .dataTables_info {
+	float: left;
+	width: 35%;
+	text-align: left;
+}
+
+.dataTables_info, .dataTables_paginate, .dataTables_length{
+	margin-top:20px;
+	height:30px;
+	/*border:1px solid red;*/
+	padding-top:5px;
+}
+.jquery_pagination .dataTables_paginate {
+	width: 45%;
+	float: right;
+	padding-top:7px;
+}
+.jquery_pagination .dataTables_paginate, .paging span, .paging strong a, .paging a {
+	text-decoration:none;
+	text-align: right;
+	font-weight:bold;
+}
+.paging {
+	float:right;
+	height:30px;
+}
+.jquery_pagination div.dataTables_paginate span.paginate_button, .paging span.page_nav_off {
+	background-color:#EEEEEE;
+}
+.jquery_pagination div.dataTables_paginate span.paginate_button, .jquery_pagination div.dataTables_paginate span.paginate_active, .paging span.page_nav_off, .paging span.activepagelink, .paging strong a, .paging span.pagelink a {
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 2px 5px;
+	cursor: pointer;
+	*cursor: hand;
+}
+.jquery_pagination div.dataTables_paginate span.paginate_button, .jquery_pagination div.dataTables_paginate span.paginate_active, .paging span.activepagelink, .paging span.page_nav_off, .paging span.activepagelink, .paging strong, .paging span.pagelink {
+	margin: 5px 3px 0px 3px;
+}
+.jquery_pagination div.dataTables_paginate span.paginate_button, .paging span.pagelink, .paging span.page_nav_off, .paging a {
+	background-color: #FBEEDD;
+}
+
+.jquery_pagination div.dataTables_paginate span.paginate_button:hover, .paging strong a:hover, .paging a:hover {
+	background-color: #EDCD9A;
+	text-decoration:none;
+}
+
+.jquery_pagination div.dataTables_paginate span.paginate_active,  .paging span.activepagelink {
+	background-color: #EDCD9A; /* #3F3F3F;*/
+	color: #333333; /* #3F3F3F; */
+	font-weight:bold;
+}
+
+
+table.display {
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+}
+table.display thead {
+	border-top: #790000 solid 1px;
+	border-bottom: #790000 solid 1px;
+}
+table.display thead th, table.display th, table.display thead td, .tbl_td_caption td {
+	border:1px solid #FFFFFF;
+	background-color:#243E97 !important;
+	color:#ffffff;
+	font-weight:bold;
+	height:30px;
+	vertical-align:middle;
+	cursor: pointer;
+	padding:3px 10px 3px 10px;
+	* cursor: hand;
+}
+table.display thead th span.left, table.display th span.left, table.display thead td span.left, .tbl_td_caption td span.left{
+	float:left;
+	text-align:left;
+}
+table.display thead th span.right, table.display th span.right, table.display thead td span.right, .tbl_td_caption td span.right{
+	float:right;
+	text-align:right;
+}
+table.display thead th a, table.display th a, table.display thead td a, .tbl_td_caption td a{
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:underline;
+}
+table.display thead th a:hover, table.display th a:hover, table.display thead td a:hover, .tbl_td_caption td a:hover{
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+.sorting_asc {
+	background: url('../images/sort_asc.gif') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('../images/sort_desc.gif') no-repeat center right;
+}
+
+.sorting {
+	background: url('../images/sort_both.gif') no-repeat center right;
+}
+
+
+table.display tbody td {
+	padding:3px 3px 3px 5px;
+	border:1px solid #FFFFFF;	
+	font-size:13px ;
+}
+tr.TableOddRow, .TableOddCol{
+	/*background-color:#EDCD9A;*/
+	background-color:#CCCCCC;
+}
+
+tr.TableEvenRow, .TableEvenCol{
+	/*background-color:#FBEEDD;*/
+	background-color:#C0C0C0;
+	
+}
+tr.odd {
+	/*background-color: #EDCD9A;*/
+	background-color:#CCCBCC;
+}
+tr.even {
+	/*background-color: #FBEEDD;*/
+	background-color: #FFFFFF;
+}
+
+table.display tfoot {	
+	background-color:#166FBD;
+	padding:0px;	
+	height:30px;
+}
+table.display tfoot th {	
+	border:1px solid #FFFFFF;
+}
+
+
+/** Start :: When Inner Table In JQuery **/
+table.display table.noborder {
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+}
+table.noborder tbody td, table.noborder td{
+	padding:3px 5px 3px 5px;
+	border:none;	
+}
+/*.paging span.pagelink a {
+	padding:0px;
+} */
+/** End When Inner Table In JQuery **/

@@ -1,0 +1,33 @@
+<?php
+define("TARRIF_TYPE_REQUIRED","Please select tariff type");
+define("GOODS_NATURE_REQUIRE", "Please select goods nature");
+define("PERC_OF_GOODS_AMOUNT_REQUIRED", "Please enter percentage value of goods price");
+define("ADMIN_HEADER_TRANSIT","TRANSIT WARRANTY");
+define("ADMIN_TRANS_ADD_LABEL","Add Transit Warranty Price");
+define("TERRIF_TYPE_IS_REQUIRED","Please Select Terrif Type");
+define("GOODS_TYPE_IS_REQUIRED","Please Select Nature of Goods");
+define("ADMIN_HEADER_TRANSIT_LIST","Transit Warranty");
+define("ADMIN_HEADER_CHOOSE_TRANSIT_LIST","Choose Transit Warranty Rule");
+define("ADMIN_ADD_NEW","Add New Transit Warranty Rule");
+define("ENTER_NUMERIC_VALUES_ONLY","Please enter numeric value.");
+define("ENTER_FROM_VALUE","Enter from value.");
+define("ENTER_TO_VALUE","Enter to value.");
+define("ENTER_CAL_TYPE","Please select any calculation method.");
+define("SELECT_CALCULATION_TYPE","Select Different Calculation Method");
+define("TARIFF_TYPE","Tariff Type");
+define("NATURE_OF_GOODS","Nature Of Goods");
+define("CALCULATION_TYPE","Calculation Type");
+define("RANGE_LEVEL","Range Level");
+define("TARIFF_STATUS","Tariff Status");
+define("MAX_RANGE","Maximum Range");
+define("MIN_RANGE","Minimum Range");
+define("RANGE_FROM","Range From");
+define("RANGE_TO","Range To");
+define("ENTER_RANGE_PARAMETERS","Enter Range Parameters");
+define("ENTER_RANGE_LEVEL","Please enter range level.");
+define("ENTER_RANGE_FROM","Please enter range from.");
+define("ENTER_RANGE_TO","Please enter range to.");
+define("ENTER_TARIFF_TABLE","Tariff Table");
+define("ENTER_ONLY_NUMERIC_VALUE","Please enter only numeric values.");
+define("PRICE_EXIT_FOR_NATURE_OF_GOODS","Price exists for this Tariff Type Range and Nature of Goods.");
+?>

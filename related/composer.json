@@ -1,0 +1,6 @@
+{
+    "require": {
+        "paypal/paypal-checkout-sdk": "1.0.1",
+        "dompdf/dompdf": "^0.8.6"
+    }
+}

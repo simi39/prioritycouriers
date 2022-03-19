@@ -1,0 +1,99 @@
+[25-Aug-2015 02:45:02 UTC] PHP Warning:  require_once(/lib/Classes/RSession.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 63
+[25-Aug-2015 02:45:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/lib/Classes/RSession.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php:/lib::') in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 63
+[25-Aug-2015 02:50:02 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 02:50:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 02:50:02 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 02:50:02 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 02:50:02 UTC] PHP Fatal error:  require(): Failed opening required '/lib/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php:/lib::') in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 02:55:01 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 02:55:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 02:55:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 02:55:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 02:55:01 UTC] PHP Fatal error:  require(): Failed opening required '/lib/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php:/lib::') in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:00:01 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:00:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:00:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:00:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:00:01 UTC] PHP Fatal error:  require(): Failed opening required '/lib/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php:/lib::') in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:05:01 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:05:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:05:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:05:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:05:01 UTC] PHP Fatal error:  require(): Failed opening required '/lib/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php:/lib::') in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:10:02 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:10:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:10:02 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:10:02 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:10:02 UTC] PHP Fatal error:  require(): Failed opening required '/lib/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php:/lib::') in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:15:01 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:15:01 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 8
+[25-Aug-2015 03:15:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:15:01 UTC] PHP Warning:  require(/lib/config.php): failed to open stream: No such file or directory in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:15:01 UTC] PHP Fatal error:  require(): Failed opening required '/lib/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php:/lib::') in /home/qantasgr/public_html/prioritycouriers.com.au/lib/common.php on line 26
+[25-Aug-2015 03:20:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[25-Aug-2015 03:25:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[04-Sep-2015 01:33:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 274
+[04-Sep-2015 01:33:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 274
+[04-Sep-2015 01:34:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 274
+[04-Sep-2015 01:34:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 274
+[05-Sep-2015 11:14:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 255
+[05-Sep-2015 11:14:14 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 255
+[08-Sep-2015 13:10:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[24-Sep-2015 04:10:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[03-Oct-2015 02:55:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[29-Oct-2015 03:34:29 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/qantasgr/public_html/prioritycouriers.com.au/related/address_validation.php on line 123
+[09-Nov-2015 02:55:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2013): Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[09-Dec-2015 06:24:32 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/qantasgr/public_html/prioritycouriers.com.au/related/ajax_postcode_rates.php on line 162
+[13-Dec-2015 11:18:32 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 200
+[13-Dec-2015 11:18:51 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 200
+[14-Dec-2015 03:04:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 431
+[14-Dec-2015 03:04:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 431
+[14-Dec-2015 03:19:05 UTC] PHP Parse error:  syntax error, unexpected '$loctionName' (T_VARIABLE) in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 204
+[14-Dec-2015 03:19:05 UTC] PHP Parse error:  syntax error, unexpected '$loctionName' (T_VARIABLE) in /home/qantasgr/public_html/prioritycouriers.com.au/related/tracking.php on line 204
+[15-Dec-2015 11:31:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message ' Fail To Add newsletter Record ' in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php:75
+Stack trace:
+#0 /home/qantasgr/public_html/prioritycouriers.com.au/related/ajax_newsletter.php(23): NewsLetterMaster->addNewsLetter(Object(NewsLetterData))
+#1 {main}
+  thrown in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php on line 75
+[15-Dec-2015 11:31:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message ' Fail To Add newsletter Record ' in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php:75
+Stack trace:
+#0 /home/qantasgr/public_html/prioritycouriers.com.au/related/ajax_newsletter.php(23): NewsLetterMaster->addNewsLetter(Object(NewsLetterData))
+#1 {main}
+  thrown in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php on line 75
+[15-Dec-2015 11:31:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message ' Fail To Add newsletter Record ' in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php:75
+Stack trace:
+#0 /home/qantasgr/public_html/prioritycouriers.com.au/related/ajax_newsletter.php(23): NewsLetterMaster->addNewsLetter(Object(NewsLetterData))
+#1 {main}
+  thrown in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php on line 75
+[15-Dec-2015 11:31:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message ' Fail To Add newsletter Record ' in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php:75
+Stack trace:
+#0 /home/qantasgr/public_html/prioritycouriers.com.au/related/ajax_newsletter.php(23): NewsLetterMaster->addNewsLetter(Object(NewsLetterData))
+#1 {main}
+  thrown in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php on line 75
+[15-Dec-2015 11:33:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message ' Fail To Add newsletter Record ' in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php:75
+Stack trace:
+#0 /home/qantasgr/public_html/prioritycouriers.com.au/related/ajax_newsletter.php(23): NewsLetterMaster->addNewsLetter(Object(NewsLetterData))
+#1 {main}
+  thrown in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php on line 75
+[15-Dec-2015 11:36:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message ' Fail To Add newsletter Record ' in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php:75
+Stack trace:
+#0 /home/qantasgr/public_html/prioritycouriers.com.au/related/ajax_newsletter.php(23): NewsLetterMaster->addNewsLetter(Object(NewsLetterData))
+#1 {main}
+  thrown in /home/qantasgr/public_html/prioritycouriers.com.au/model/NewsLetterMaster.php on line 75
+[25-Dec-2015 05:50:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[11-Feb-2016 16:55:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[14-Mar-2016 02:15:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[20-Mar-2016 23:40:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[22-Mar-2016 16:50:01 UTC] PHP Fatal error:  Call to undefined function mysqli_connect() in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[27-Mar-2016 10:15:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2013): Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[05-Apr-2016 20:05:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[12-Apr-2016 12:05:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[22-May-2016 04:35:42 UTC] PHP Warning:  mysqli_connect(): (HY000/2013): Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[06-Jun-2016 18:05:01 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[23-Sep-2016 18:05:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[06-Nov-2016 16:50:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[27-Nov-2016 02:20:02 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[08-Jan-2017 01:15:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[16-Jan-2017 02:15:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[04-Feb-2017 15:26:18 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8
+[30-Aug-2017 17:50:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/qantasgr/public_html/prioritycouriers.com.au/related/crontab_new.php on line 8

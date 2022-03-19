@@ -1,0 +1,12 @@
+[11-Oct-2013 11:43:03 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/null.php on line 28
+[11-Oct-2013 11:43:03 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/Mail/mimeDecode.php on line 293
+[11-Oct-2013 11:43:03 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/Mail/smtp.php on line 189
+[11-Oct-2013 11:43:03 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/smtp.php on line 26
+[11-Oct-2013 11:43:03 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/sendmail.php on line 25
+[11-Oct-2013 11:43:03 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/mail.php on line 26
+[14-Oct-2013 12:07:06 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/null.php on line 28
+[14-Oct-2013 12:07:06 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/Mail/mimeDecode.php on line 293
+[14-Oct-2013 12:07:06 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/sendmail.php on line 25
+[14-Oct-2013 12:07:06 Antarctica/Macquarie] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home/onlinec4/public_html/lib/pear/Mail/smtp.php on line 189
+[14-Oct-2013 12:07:06 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/smtp.php on line 26
+[14-Oct-2013 12:07:06 Antarctica/Macquarie] PHP Fatal error:  Class 'Mail' not found in /home/onlinec4/public_html/lib/pear/Mail/mail.php on line 26

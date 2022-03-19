@@ -1,0 +1,14 @@
+[11-Oct-2013 11:43:25 Antarctica/Macquarie] PHP Fatal error:  Class 'RNameValueCollection' not found in /home/onlinec4/public_html/lib/Classes/RCookie.php on line 244
+[11-Oct-2013 11:43:26 Antarctica/Macquarie] PHP Fatal error:  Class 'RNameValueCollection' not found in /home/onlinec4/public_html/lib/Classes/RCookie.php on line 244
+[11-Oct-2013 11:43:26 Antarctica/Macquarie] PHP Notice:  Undefined index: HTTP_X_FORWARDED_HOST in /home/onlinec4/public_html/lib/path.php on line 8
+[11-Oct-2013 11:43:26 Antarctica/Macquarie] PHP Notice:  Constant DIR_WS_PDF already defined in /home/onlinec4/public_html/lib/path.php on line 62
+[11-Oct-2013 11:43:26 Antarctica/Macquarie] PHP Notice:  Constant DIR_HTTP_PDF already defined in /home/onlinec4/public_html/lib/path.php on line 63
+[11-Oct-2013 11:43:26 Antarctica/Macquarie] PHP Notice:  Constant DIR_WS_PAYMENT already defined in /home/onlinec4/public_html/lib/path.php on line 101
+[11-Oct-2013 11:43:26 Antarctica/Macquarie] PHP Notice:  Undefined index: HTTP_REFERER in /home/onlinec4/public_html/lib/common.php on line 26
+[14-Oct-2013 12:07:15 Antarctica/Macquarie] PHP Fatal error:  Class 'RNameValueCollection' not found in /home/onlinec4/public_html/lib/Classes/RCookie.php on line 244
+[14-Oct-2013 12:07:15 Antarctica/Macquarie] PHP Fatal error:  Class 'RNameValueCollection' not found in /home/onlinec4/public_html/lib/Classes/RCookie.php on line 244
+[14-Oct-2013 12:07:15 Antarctica/Macquarie] PHP Notice:  Undefined index: HTTP_X_FORWARDED_HOST in /home/onlinec4/public_html/lib/path.php on line 8
+[14-Oct-2013 12:07:15 Antarctica/Macquarie] PHP Notice:  Constant DIR_WS_PDF already defined in /home/onlinec4/public_html/lib/path.php on line 62
+[14-Oct-2013 12:07:15 Antarctica/Macquarie] PHP Notice:  Constant DIR_HTTP_PDF already defined in /home/onlinec4/public_html/lib/path.php on line 63
+[14-Oct-2013 12:07:15 Antarctica/Macquarie] PHP Notice:  Constant DIR_WS_PAYMENT already defined in /home/onlinec4/public_html/lib/path.php on line 101
+[14-Oct-2013 12:07:15 Antarctica/Macquarie] PHP Notice:  Undefined index: HTTP_REFERER in /home/onlinec4/public_html/lib/common.php on line 26

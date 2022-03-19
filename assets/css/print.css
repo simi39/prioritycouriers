@@ -1,0 +1,29 @@
+body { 
+	background: white; 
+	font-size: 12pt; 
+}
+	
+.header { 
+	display: none; 
+}
+.footer { 
+	display: none; 
+}
+#tracking_info{
+	display: none; 
+}
+.top { 
+	display: none; 
+}
+.copyright { 
+	display: none; 
+}
+#printsec{
+	display: none;
+}
+#topcontrol{
+	display: none;
+}		
+#booking_breadcrumb{
+	display: none;
+}	

@@ -1,0 +1,32 @@
+<?php
+require_once(DIR_WS_MODEL ."CmsPagesMaster.php");
+
+define("REPORT_TYPE_ERROR","Please select report type.");
+define("FROM_DATE_VALUE_ERROR","Please enter From date value. ");
+define("ADMIN_HEADER_SALES_REPORT","Sales Report");
+define("TO_DATE_VALUE_ERROR","Please enter to date range value.");
+define("SELECT_ACCOUNT","Select Account");
+define("SELECT_USER_ACC_OPTION","select user account");
+define("PLEASE_SELECT_ANY_USER","Please select any user.");
+define("SELECT_REPORT_TYPE_OPTION","Select Report Type");
+define("SALES_REPORT","Sales Report");
+define("SUMMARY_REPORT","Summary Report");
+define("SELECT_DATE_RANGE","Select the date range");
+define("FROM_DATE","From Date");
+define("TO_DATE","To Date");
+define("RECORDS_NOT_FOUND","No data is found");
+define("DAILY_SALES_REPORT","Daily Sales Report");
+define("TBL_INVOICE_DATE","Invoice Date");
+define("TBL_INVOICE_NO","Invoice No");
+define("TBL_TRANSCATION_NO","Transcation No");
+define("TBL_PIECES","Pieces");
+define("TBl_WEIGHT","Weight");
+define("TBL_FROM","From");
+define("TBL_TO","To");
+define("TBL_AMOUNT","Amount");
+define("TBL_GST","GST");
+define("TBL_TOTAL","Total");
+define("TBL_TOTAL_JOBS","Total Jobs");
+define("TBL_ACCOUNT_NO","Account No");
+define("TBL_ACCOUNT_NAME","Account Name");
+define("TBL_TOTAL_JOBS","Total Jobs");

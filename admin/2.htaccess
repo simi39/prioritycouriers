@@ -1,0 +1,15 @@
+Order Deny,Allow
+Deny from all
+Allow from 60.242.49.51
+Allow from 49.213
+Allow from 14.97
+Allow from  121.245
+Allow from 124.184.93.104
+Allow from 14.96
+Allow from 101.171.42.165
+Allow from 115.118.220.57
+Allow from 49.193
+AuthType Basic
+AuthName "Restricted"
+AuthUserFile "/home/onlinec4/.htpasswds/public_html/admin/passwd"
+require valid-user
