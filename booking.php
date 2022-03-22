@@ -684,13 +684,14 @@ if(isset($_POST['btn_submit'])){
 	if(empty($o_metro_valid_state) || empty($d_metro_valid_state)){
 		$cond_metro = false;
 	}
-
+	//echo $o_metro_valid_state."---".$d_metro_valid_state."</br>";
 	/* Below condition is for testing its from same zone of metro or not */
-	if($Svalidation == false && $o_metro_valid_state == $d_metro_valid_state && $flag == 1){
+	if($Svalidation == false && ((isset($o_metro_valid_state) && !empty($o_metro_valid_state)) && (isset($d_metro_valid_state) && !empty($d_metro_valid_state))) && $o_metro_valid_state == $d_metro_valid_state && $flag == 1){
 		$cond_supplier_id = 10;
 		$cond_metro = true;
 		$service_local = 1;
-
+		//echo "domestic:".$service_local;
+		//exit();
 		if(isset($pickupid) && isset($deliverid) && $pickupid!='' && $deliverid !=''){
 			$dis = distanceKm($pickupid,$deliverid);
 		}
@@ -888,7 +889,7 @@ if(isset($_POST['btn_submit'])){
 
 			$code_format_id = 0;
 			if(empty($service_local))
-			{
+			{ //@commented by smita on 21/3/2022 because it was coming service local as one and going in metro
 				$service_local = 2;
 			}
 			$star_fee_flag = 0;
@@ -947,7 +948,7 @@ if(isset($_POST['btn_submit'])){
 						$base_tariff = bothDir($base_tariff);
 
 						$tbl = checkTableExit($base_tariff);
-						//echo "table".$tbl;
+						//echo "base_tariff:".$base_tariff."--table".$tbl;
 						//exit();
 						if($tbl!='' && $supplier_id == 0)
 						{
@@ -1142,6 +1143,11 @@ if(isset($_POST['btn_submit'])){
 			}
 
 		}
+		/*echo "service local:".$service_local;
+		echo "<pre>";
+		print_r($service_data);
+		echo "</pre>";
+		exit();		*/
 
 		/* TNT format is calculated here */
 		if(($flag == "1" && $msg_fee_flag == 1 && $star_fee_flag == 1) || ($flag == "1" && $msg_fee_flag == 1 && $star_fee_flag == 0) || ($flag == "1" && $msg_fee_flag == 0 && $star_fee_flag == 1)){
