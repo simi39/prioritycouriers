@@ -325,7 +325,7 @@
 			<?php
 				if(isset($userid) && !empty($userid)){
 			?>
-				<button class="btn-u btn-u-large pull-right <?php echo $showb; ?>" tabindex="34" type="button"  name="Save" id="Save" onclick="javascript:return ChooseBooking();"  /><?php echo $btn_name; ?> &raquo;</button>
+				<button class="btn-u btn-u-large pull-right <?php //echo $showb; ?>" tabindex="34" type="button"  name="Save" id="Save" onclick="javascript:return ChooseBooking();"  /><?php echo $btn_name; ?> &raquo;</button>
 			<?php }else{ ?>
 				<button class="btn-u btn-u-large pull-right" tabindex="34" type="button"  name="Save" id="Save" onclick="javascript:return ChooseLogin();" /><?php echo $btn_name; ?> &raquo;</button>
 			<?php

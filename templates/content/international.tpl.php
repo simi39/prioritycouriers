@@ -317,7 +317,7 @@ if(in_array($chkTommorrow, $dates)) {
 			<?php
 				if(isset($userid) && !empty($userid)){
 			?>
-			<button class="btn-u btn-u-large pull-right <?php echo $showb; ?>" tabindex="34" type="button"  name="Save" id="Save" onclick="javascript:return ChooseInternationalBooking();"><?php echo $btn_name; ?> &raquo;</button>
+			<button class="btn-u btn-u-large pull-right <?php //echo $showb; ?>" tabindex="34" type="button"  name="Save" id="Save" onclick="javascript:return ChooseInternationalBooking();"><?php echo $btn_name; ?> &raquo;</button>
 			<?php
 			}else{
 			?>
@@ -382,7 +382,7 @@ if(in_array($chkTommorrow, $dates)) {
 	</div>
 </div>
 
-<!--<div class="modal hide fade small_rates" id="selInterBkMsgBox" data-backdrop="static" data-keyboard="false">
+<div class="modal hide fade small_rates" id="selInterBkMsgBox" data-backdrop="static" data-keyboard="false">
 	<div class="modal-header">
 	<h3><?php echo INTERNATIONAL_BOOKING_HEADER_MSG; ?></h3>
 	</div>
@@ -394,8 +394,8 @@ if(in_array($chkTommorrow, $dates)) {
         <div class="btn-u pull-right button_modal_fl" id="selInterYes">Close</div>
 	</div>
 	</div>
-</div>-->
-<!--<div class="modal hide fade small_rates" id="selInterBkConfirmBox">
+</div>
+<div class="modal hide fade small_rates" id="selInterBkConfirmBox">
     <div class="modal-header">
         <h3><?php echo INTERNATIONAL_BOOKING_HEADER_MSG;?></h3>
     </div>
@@ -407,4 +407,4 @@ if(in_array($chkTommorrow, $dates)) {
     	<div class="btn-u pull-left button_modal_fl" id="msgInterBkContentNo">No</div>
         <div class="btn-u pull-right button_modal_fl" id="msgInterBkContentYes">Yes</div>
 		</div></div>
-</div>-->
+</div>

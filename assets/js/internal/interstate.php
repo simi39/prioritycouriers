@@ -21,7 +21,7 @@ $(function () {
 	var today = moment(d).format('MM/DD/YYYY');
 
 	var selectedDt = $("#interstate_collection_date").val();
-
+	console.log("today"+today+"---"+selectedDt);
 	if(selectedDt === today) {
 		$('#ready_time').timepicker({
             'timeFormat': 'h:i A',
@@ -36,6 +36,7 @@ $(function () {
 			//'minTime': thisHour,
     		'maxTime': '5:00 PM'
     	});
+		
 	}else{
 		$('#ready_time').timepicker({
             'timeFormat': 'h:i A',
@@ -123,6 +124,7 @@ $('#cmpTimerYes').click(function (){
 	$("#cmpTwoTimers").modal('hide');
 });
 function ChooseInterStateBooking(){
+	
 	var startTime = moment($("#ready_time").val(), "h:mm A");
 	var endTime = moment($("#close_time").val(), "h:mm A");
 
@@ -130,23 +132,19 @@ function ChooseInterStateBooking(){
 	var duration = moment.duration(endTime.diff(startTime));
 	var hours = parseInt(duration.asHours());
 	var minutes = parseInt(duration.asMinutes())-hours*60;
-	if(hours<3){
-		$("#gapOfTimers").modal('show');
-		$('#gapofTimerYes').click(function (){
-			$("#gapOfTimers").modal('hide');
-		});
-		return false;
-	}else{
-		$('#interstate').submit();
-		return true;
-	}
-
-
-	/*else if($("#booking_type_hidden").val() == ""){
+	
+	if($("#booking_type_hidden").val() == ""){
 		$("#selInterBkMsgBox").modal('show');
 		$('#selInterYes').click(function (){
 			$("#selInterBkMsgBox").modal('hide');
 		});
+	}else if(hours<3)
+	{
+		$("#gapOfTimers").modal('show');
+		$('#gapofTimerYes').click(function (){
+			$("#gapOfTimers").modal('hide');
+		});
+		return false
 	}else{
 
 	    $("#selInterBkConfirmBox").modal('show');
@@ -160,7 +158,22 @@ function ChooseInterStateBooking(){
 			$("#selInterBkConfirmBox").modal('hide');
 			return false;
 		});
-	}*/
+	}
+	
+	/*
+	if(hours<3){
+		$("#gapOfTimers").modal('show');
+		$('#gapofTimerYes').click(function (){
+			$("#gapOfTimers").modal('hide');
+		});
+		return false;
+	}else{
+		$('#interstate').submit();
+		return true;
+	}
+
+	*/
+	 
 };
 
 /****	Button "Book Now" visibility	**/
@@ -367,7 +380,16 @@ $("#interstate_collection_date").change(function() {
 		$('#close_time').val('5:00 PM');
 		//alert(this.value+"default date:"+today+"this hour:"+thisHour);
 	}else{
+		/* 
+		This else part is getting executing when we are selecting different 
+		date.
+		
+		*/
 		$('#ready_time').val('7:00 AM');
+		$('#ready_time').timepicker('option', 'minTime', '7:00 AM');
+		$('#ready_time').timepicker('option', 'maxTime', '2:00 PM');
+		$('#close_time').timepicker('option', 'minTime', '7:00 AM');
+		$('#close_time').timepicker('option', 'maxTime', '5:00 PM');
 		$('#close_time').val('5:00 PM');
 	}
 

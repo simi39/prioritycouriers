@@ -128,10 +128,7 @@ function ChooseInternationalBooking(){
 			$("#gapOfTimers").modal('hide');
 		});
 		return false;
-	}else{
-		$('#international').submit();
-	}
-	/*else if($("#booking_type_hidden").val() == ""){
+	}else if($("#booking_type_hidden").val() == ""){
 		$("#selInterBkMsgBox").modal('show');
 		$('#selInterYes').click(function (){
 			$("#selInterBkMsgBox").modal('hide');
@@ -149,7 +146,14 @@ function ChooseInternationalBooking(){
 			$("#selInterBkConfirmBox").modal('hide');
 			return false;
 		});
-	}*/
+	}
+
+	/*
+	else{
+		$('#international').submit();
+	}
+	*/
+	/**/
 };
 
 /****	Button "Book Now" visibility	**/

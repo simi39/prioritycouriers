@@ -357,19 +357,22 @@ function ChooseBooking(){
 	var ett = new Date(collection_dt+" "+$("#service_cutoff_time").val()); /// last cutoff time of the service which is highest take that into consideration
 	ett = ett.getTime();
 	//alert("collection dt box:"+collection_dt+" "+collection_time+"service time"+collection_dt+" "+$("#service_cutoff_time").val());
-	if(ctt > ett){
+	/*if(ctt > ett){
 		alert("Please choose another service to proceed further.");
 		return false;
 	}
 
-	$('#metro').submit();
+	$('#metro').submit();*/
 
-	/*if($("#booking_type_hidden").val() == ""){
+	if($("#booking_type_hidden").val() == ""){
 		$("#selBkMsgBox").modal('show');
 		$('#yes').click(function (){
 			$("#selBkMsgBox").modal('hide');
 		});
 
+	}else if(ctt > ett){
+		alert("Please choose another service to proceed further.");
+		return false;
 	}else{
 
 	    $("#selBkConfirmBox").modal('show');
@@ -384,7 +387,7 @@ function ChooseBooking(){
 			return false;
 		});
 
-	}*/
+	}
 
 }
 //changeTime
